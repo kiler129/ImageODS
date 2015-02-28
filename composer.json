@@ -1,0 +1,28 @@
+{
+  "name": "noflash/imageods",
+  "description": "Open source Apple Remote Disc server for disc images.",
+  "keywords": [
+    "remote disc",
+    "iso",
+    "server"
+  ],
+  "homepage": "http://github.com/kiler129/ImageODS",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grzegorz Zdanowski",
+      "email": "grzegorz@noflash.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "noflash/cherryhttp": "dev-master",
+    "noflash/shout": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "noFlash\\ImageODS\\": "src"
+    }
+  }
+}
